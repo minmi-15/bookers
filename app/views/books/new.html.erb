@@ -1,0 +1,19 @@
+<h2 class="page-title">New Book</h2>
+
+<%= form_with(model: @book, local: true, html: { class: "form-wrapper" }) do |form| %>
+  <div class="field-block">
+    <label style="margin-left: 60px; display: inline-block;">Title</label><br>
+    <%= form.text_field :title %>
+  </div>
+
+  <div class="field-block">
+    <label style="margin-left: 60px; display: inline-block;">Body</label><br>
+    <%= form.text_area :body %>
+  </div>
+
+  <div class="actions">
+    <input type="submit" name="commit" value="Create Book" data-disable-with="Create Book">
+    <%= form.submit "Create Book" %>
+  </div>
+ <% end %>
+

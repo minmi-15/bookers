@@ -1,0 +1,84 @@
+// Place all the styles related to the Books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+#error_explanation {
+  color: red;
+  background-color: #ffe6e6;
+  border: 1px solid #ff9999;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+
+  h2 {
+    font-weight: bold;
+  }
+
+  ul {
+    margin: 0;
+    padding-left: 20px;
+  }
+
+  li {
+    list-style-type: disc;
+  }
+}
+  .flash-notice {
+  color: green;
+  background-color: #e6ffe6;
+  border: 1px solid #99cc99;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  }
+
+label[for="book_title"],
+label[for="book_body"] {
+  margin-left: 30px;
+  display: inline-block;
+}
+
+
+textarea,
+input[type="text"],
+.form-wrapper {
+  margin-left: 30px !important;
+}
+
+.form-wrapper .field-block,
+.form-wrapper .actions {
+  margin-left: 60px;
+}
+
+input[type="submit"] {
+  margin-left: 30px;
+}
+
+.book-title,
+.book-body {
+  margin-left: 60px;
+  font-size: 16px !important;
+}
+
+.book-links {
+  margin-left: 30px;
+  font-size: 16px !important;
+}
+
+.edit-title {
+  margin-left: 30px;
+}
+
+.edit-links {
+  margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
